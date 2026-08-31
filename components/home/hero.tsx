@@ -20,7 +20,7 @@ const item = {
 
 export function Hero() {
   return (
-    <section className="relative isolate flex min-h-screen items-center overflow-hidden">
+    <section className="relative isolate flex min-h-[82vh] items-center overflow-hidden md:min-h-[88vh]">
       {/* Background */}
       <motion.div
         className="absolute inset-0 -z-10"
@@ -39,7 +39,7 @@ export function Hero() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-background/95 via-background/80 to-background/35" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-background/85 via-background/45 to-transparent" />
 
-      <div className="mx-auto w-full max-w-7xl px-5 pb-20 pt-32 md:px-8">
+      <div className="mx-auto w-full max-w-7xl px-5 pb-16 pt-28 md:px-8">
         <motion.div variants={container} initial="hidden" animate="visible" className="max-w-4xl">
           <motion.div variants={item} className="flex items-center gap-3">
             <span className="h-px w-10 bg-accent" />
@@ -50,22 +50,21 @@ export function Hero() {
 
           <motion.h1
             variants={item}
-            className="mt-7 font-display text-[2.75rem] font-bold leading-[0.98] tracking-display text-balance text-foreground sm:text-6xl lg:text-7xl xl:text-8xl"
+            className="mt-6 font-display text-[2.5rem] font-bold leading-[1] tracking-display text-balance text-foreground sm:text-6xl lg:text-7xl"
           >
-            La humedad y el deterioro de tu edificio tienen solución.
+            Humedad, fachadas, mantenimiento. Resuelto.
           </motion.h1>
 
           <motion.p
             variants={item}
-            className="mt-7 max-w-2xl text-lg leading-relaxed text-pretty text-muted-foreground md:text-xl"
+            className="mt-6 max-w-2xl text-lg leading-relaxed text-pretty text-muted-foreground md:text-xl"
           >
-            Fachadas dañadas, filtraciones y mantenimiento postergado no se
-            resuelven solos. Con 27 años de experiencia, nos hacemos cargo de
-            todo el proceso —de la evaluación a la entrega— con la seguridad
-            que cada obra exige.
+            Nos hacemos cargo de todo el proceso —de la evaluación a la
+            entrega— con 27 años de experiencia y la seguridad que cada obra
+            exige.
           </motion.p>
 
-          <motion.div variants={item} className="mt-10 flex flex-col gap-4 sm:flex-row">
+          <motion.div variants={item} className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
               href="/contacto"
               className="group inline-flex items-center justify-center gap-3 rounded-full bg-accent px-8 py-4 text-base font-semibold text-accent-foreground transition-transform hover:scale-[1.03]"
