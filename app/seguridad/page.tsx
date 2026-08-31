@@ -51,7 +51,7 @@ export default function SeguridadPage() {
           <Reveal>
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/altura-worker.png"
+                src="/images/altura-worker.webp"
                 alt="Operario de JD GROUP trabajando en altura con equipamiento de seguridad"
                 fill
                 className="object-cover"

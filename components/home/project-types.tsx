@@ -6,14 +6,14 @@ import { ArrowUpRight } from 'lucide-react'
 import { SectionHeading } from '@/components/section-heading'
 
 const categories = [
-  { label: 'Edificios residenciales', image: '/images/proj-residential.png' },
-  { label: 'Edificios comerciales', image: '/images/proj-commercial.png' },
-  { label: 'Estaciones de servicio', image: '/images/proj-station.png' },
-  { label: 'Fachadas', image: '/images/proj-facade.png' },
-  { label: 'Espacios interiores', image: '/images/proj-interior.png' },
-  { label: 'Grandes superficies', image: '/images/proj-commercial.png' },
-  { label: 'Oficinas', image: '/images/proj-interior.png' },
-  { label: 'Proyectos especiales', image: '/images/trajectory.png' },
+  { label: 'Edificios residenciales', image: '/images/proj-residential.webp' },
+  { label: 'Edificios comerciales', image: '/images/proj-commercial.webp' },
+  { label: 'Estaciones de servicio', image: '/images/proj-station.webp' },
+  { label: 'Fachadas', image: '/images/proj-facade.webp' },
+  { label: 'Espacios interiores', image: '/images/proj-interior.webp' },
+  { label: 'Grandes superficies', image: '/images/proj-commercial.webp' },
+  { label: 'Oficinas', image: '/images/proj-interior.webp' },
+  { label: 'Proyectos especiales', image: '/images/trajectory.webp' },
 ]
 
 export function ProjectTypes() {

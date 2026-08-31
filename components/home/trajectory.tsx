@@ -55,7 +55,7 @@ export function Trajectory() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
             <motion.div style={{ y }} className="absolute inset-0 -top-[8%] h-[116%]">
               <Image
-                src="/images/trajectory.png"
+                src="/images/trajectory.webp"
                 alt="Obra de gran escala realizada por JD GROUP"
                 fill
                 className="object-cover"

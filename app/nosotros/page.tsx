@@ -55,7 +55,7 @@ export default function NosotrosPage() {
             <Reveal>
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
                 <Image
-                  src="/images/altura-worker.png"
+                  src="/images/altura-worker.webp"
                   alt="Profesional de JD GROUP trabajando en altura"
                   fill
                   className="object-cover"

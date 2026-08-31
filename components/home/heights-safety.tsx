@@ -59,7 +59,7 @@ export function HeightsSafety() {
             <Reveal className="mt-10">
               <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
                 <Image
-                  src="/images/safety-gear.png"
+                  src="/images/safety-gear.webp"
                   alt="Equipamiento de seguridad para trabajos en altura de JD GROUP"
                   fill
                   className="object-cover"
@@ -70,7 +70,7 @@ export function HeightsSafety() {
             <Reveal delay={1}>
               <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
                 <Image
-                  src="/images/team-work.png"
+                  src="/images/team-work.webp"
                   alt="Equipo de JD GROUP trabajando en altura con sistemas de protección"
                   fill
                   className="object-cover"

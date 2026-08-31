@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: 'JD GROUP | Pintura, Impermeabilización y Mantenimiento',
     description:
       '27 años transformando superficies. Pintura, impermeabilización y mantenimiento profesional para edificios y grandes superficies.',
-    images: [{ url: '/images/hero-building.png', width: 1200, height: 630, alt: 'JD GROUP' }],
+    images: [{ url: '/images/hero-building.webp', width: 1200, height: 630, alt: 'JD GROUP' }],
   },
   robots: { index: true, follow: true },
 }

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const highlights = [
   {
     title: 'Pintura interior y exterior',
-    image: '/images/proj-facade.png',
+    image: '/images/proj-facade.webp',
     points: [
       'Fachadas y superficies exteriores',
       'Viviendas, edificios y oficinas',
@@ -27,7 +27,7 @@ const highlights = [
   },
   {
     title: 'Impermeabilización y protección',
-    image: '/images/proj-commercial.png',
+    image: '/images/proj-commercial.webp',
     points: [
       'Tratamiento de superficies exteriores',
       'Protección frente a humedad',

@@ -39,7 +39,7 @@ export function BeforeAfter() {
         >
           {/* After (base) */}
           <Image
-            src="/images/after.png"
+            src="/images/after.webp"
             alt="Superficie después de la intervención de JD GROUP"
             fill
             className="object-cover"
@@ -55,7 +55,7 @@ export function BeforeAfter() {
             style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
           >
             <Image
-              src="/images/before.png"
+              src="/images/before.webp"
               alt="Superficie antes de la intervención de JD GROUP"
               fill
               className="object-cover"

@@ -7,7 +7,7 @@ import { ArrowRight, ArrowDown } from 'lucide-react'
 
 const container = {
   hidden: {},
-  visible: { transition: { staggerChildren: 0.12, delayChildren: 1.7 } },
+  visible: { transition: { staggerChildren: 0.12, delayChildren: 0.15 } },
 }
 const item = {
   hidden: { opacity: 0, y: 24 },
@@ -20,7 +20,7 @@ const item = {
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden">
+    <section className="relative isolate flex min-h-screen items-center overflow-hidden">
       {/* Background */}
       <motion.div
         className="absolute inset-0 -z-10"
@@ -29,22 +29,22 @@ export function Hero() {
         transition={{ duration: 6, ease: 'easeOut' }}
       >
         <Image
-          src="/images/hero-building.png"
+          src="/images/hero-building.webp"
           alt="Fachada de edificio de gran escala siendo intervenida por JD GROUP"
           fill
           priority
           className="object-cover"
         />
       </motion.div>
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-background via-background/85 to-background/40" />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-background/90 via-background/50 to-transparent" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-background/95 via-background/80 to-background/35" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-background/85 via-background/45 to-transparent" />
 
       <div className="mx-auto w-full max-w-7xl px-5 pb-20 pt-32 md:px-8">
         <motion.div variants={container} initial="hidden" animate="visible" className="max-w-4xl">
           <motion.div variants={item} className="flex items-center gap-3">
             <span className="h-px w-10 bg-accent" />
             <span className="text-xs font-semibold uppercase tracking-[0.28em] text-accent">
-              Desde 1999 · 27 años de experiencia
+              Pintura · Impermeabilización · Trabajos en altura
             </span>
           </motion.div>
 
@@ -52,15 +52,17 @@ export function Hero() {
             variants={item}
             className="mt-7 font-display text-[2.75rem] font-bold leading-[0.98] tracking-display text-balance text-foreground sm:text-6xl lg:text-7xl xl:text-8xl"
           >
-            27 años transformando superficies.
+            La humedad y el deterioro de tu edificio tienen solución.
           </motion.h1>
 
           <motion.p
             variants={item}
             className="mt-7 max-w-2xl text-lg leading-relaxed text-pretty text-muted-foreground md:text-xl"
           >
-            Pintura, impermeabilización y mantenimiento profesional para
-            edificios, grandes superficies y proyectos que exigen precisión.
+            Fachadas dañadas, filtraciones y mantenimiento postergado no se
+            resuelven solos. Con 27 años de experiencia, nos hacemos cargo de
+            todo el proceso —de la evaluación a la entrega— con la seguridad
+            que cada obra exige.
           </motion.p>
 
           <motion.div variants={item} className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -85,7 +87,7 @@ export function Hero() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 2.6, duration: 1 }}
+        transition={{ delay: 1.1, duration: 1 }}
         className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-3 md:flex"
       >
         <span className="text-[0.65rem] font-medium uppercase tracking-[0.28em] text-muted-foreground">
